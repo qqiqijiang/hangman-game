@@ -1,0 +1,22 @@
+body{
+    background-color: goldenrod;
+}
+.big{
+    text-align: center;
+    margin: auto;
+}
+
+table{
+    margin: auto;
+}
+#result{
+    font-size: 2em;
+}
+#button1{
+    width: 100px;
+    height: 30px;
+}
+.button2{
+    width: 30px;
+    height: 20px;
+}

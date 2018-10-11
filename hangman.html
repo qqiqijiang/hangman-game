@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>HangMan</title>
+    <link rel="stylesheet" type="text/css" href="lab8.css"/>
+    <script src="lab8.js" defer></script>
+</head>
+<body>
+<div class="big">
+    <h1> Save me! Guess the word! </h1>
+
+    <img id="image" src="hangman1.jpg" alt="tinyman">
+</div>
+
+<div class="big">
+    <input id="button1" type="button" value="Generate" onclick="generate()">
+</div>
+
+<div class="big">
+    <table id="guess" border="1" cellpadding="10" cellspacing="10"></table>
+    <br>
+    <div id="result"></div>
+    <div id="life"></div>
+
+</div>
+
+<div class="big">
+    <h2>Choose a letter:</h2>
+
+    <input id="inputletter"  maxlength="1">
+    <input id="button" type="button" value="Try!" onclick="check()"></div>
+<br>
+<div class="big">
+    <div id="keyboard">
+        <div>
+            <input class="button2" type="button" value="q" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="w" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="e" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="r" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="t" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="y" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="u" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="i" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="o" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="p" onclick="btnletter_onclick(this.value)">
+        </div>
+
+        <div>
+            <input class="button2" type="button" value="a" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="s" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="d" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="f" onclick="btnletter_onclick(this.value)" >
+            <input class="button2" type="button" value="g" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="h" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="j" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="k" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="l" onclick="btnletter_onclick(this.value)">
+            </div>
+
+        <div>
+            <input class="button2" type="button" value="z" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="x" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="c" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="v" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="b" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="n" onclick="btnletter_onclick(this.value)">
+            <input class="button2" type="button" value="m" onclick="btnletter_onclick(this.value)">
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
